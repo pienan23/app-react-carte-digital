@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  text-decoration: none;
+  list-style-type: none;
+  --primary: rgb(36, 36, 36);
+  --secondary: rgb(19, 19, 19);
+  --margin-primary: 0 35px 0 35px;
+}
+p {
+  font-size: 12px;
+}
+
+.profil img {
+  width: 350px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary);
+}
+
+.App .Carte {
+  border-radus: 25px;
+  margin-top: 20px;
+
+  width: 350px;
+}
+
+.button1 {
+  width: 120px;
+  padding: 3px;
+  text-align: center;
+  font-size: 14px;
+  background: white;
+}
+.button1 i {
+  color: black;
+  padding-right: 12px;
+}
+.button1 a {
+  color: black;
+}
+.button2 {
+  width: 120px;
+  padding: 3px;
+  text-align: center;
+  font-size: 14px;
+  background: #0e76a8;
+}
+.button2 i {
+  color: white;
+  padding-right: 12px;
+}
+.button2 a {
+  color: white;
+}
+
+footer {
+  background: black;
+}
+footer .container {
+  margin: var(--margin-primary);
+}
+ul {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+ul li a i {
+  color: #fff;
+  font-size: 20px;
+}

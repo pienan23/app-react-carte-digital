@@ -1,0 +1,41 @@
+/* main section  */
+.Main {
+  color: white;
+  background-color: var(--secondary);
+}
+
+.Main .container {
+  margin: var(--margin-primary);
+}
+.presentation {
+  text-align: center;
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: yellow;
+}
+/* Contacts */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+/* about experiences */
+.about,
+.experiences {
+  padding-bottom: 20px;
+}
+
+.about > h1,
+.experiences > h1 {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
